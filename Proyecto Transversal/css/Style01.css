@@ -1,0 +1,590 @@
+.container {
+    margin: auto;
+    font-family: Text, sans-serif;
+    max-width: 1000px;
+}
+
+a {
+    text-decoration:none;
+    color: grey;
+}
+
+
+.header-top > a{
+    color:#7dbc91;
+}
+/* MENU IDIOMA Y CASH*/
+.money-lang{
+    float: right;
+    display: flex;
+    width: 15%; 
+    
+}
+.lang > select, .money>select{
+    border-style:hidden;
+}
+.money{
+    padding-left: 7%;   
+}
+/* --------------------
+------------------------
+----------------------*/
+.header-mid{
+    width: 100%;
+}
+.header-mid *{
+    display:inline-block;
+    padding-right:15px;
+    font-weight: 800;   
+    
+}
+
+.titulo{
+    width: 20%;
+}
+.pre-search{
+   border:2px solid lightgrey;
+   width: 50%; 
+   
+}
+.search{
+    width: 100%;
+    
+}
+.search > img{
+    width: 20px;
+}
+
+.search > input{
+    
+    height: 5%;
+    border-style: hidden;
+    outline: none;        
+}
+::placeholder{
+    color: #dbdbdb;
+}
+.searchButton{
+    border-style: hidden;
+    border-radius: 10%;
+    width: 20%;
+    height: 40px;
+    background-color:#7dbc91;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    
+}
+.cart{
+    float: right;
+    padding-top: 50px;
+}
+.cart > img{
+    width: 20px;
+    
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+/* counter*/
+.deals {
+    display: inline-flex;
+}
+
+.contador{
+    display: flex;
+    padding-left: 20px;
+}
+
+.contador > div{
+    padding: 15px 5px
+}
+
+.numero{
+    color:#7dbc91 ;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+/*------*/
+
+
+.menu{
+    background-color:#7dbc91;
+}
+.nav *{
+    
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-top: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;    
+}
+
+
+.items-container{
+    font-size: 10px;      
+    width:100%; 
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.item{
+    
+    display: inline-block;
+    margin-left: 1%;
+    width:18%;
+   
+}
+.item > img{
+    width: 100%;
+    height: 150px;
+    text-align: center;  
+}
+
+
+hr.green{
+    border-color: #7dbc91;
+}
+
+
+
+
+/* Menu fertilizadores se aplica a dos el .fertilizers y el .left-fertilizers*/
+.fertilizers{
+  display: flex;
+  height: 400px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+
+}
+
+.left-fertilizers{
+    border-right:solid 1px grey;
+    width: 25%;
+    
+}
+.left-fertilizers > h4, .left-fertilizers > div > a{
+    padding-left: 15px;
+}
+.vertical-menu > a{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    margin-bottom: 1px;
+    
+       
+
+}
+
+.sub-item{
+    width: 25%;
+    
+}
+
+.sub-item > img{
+    height: 90%;
+    width: 90%;
+    padding:10px 0 0 10px;
+}
+
+.menu-row{
+    width: 25%;
+}
+
+.menu-row > div {
+    width: 100%;
+    height: 30%;
+}
+.img-menu{
+    display: flex;
+    width: 20%;
+    height: 100px;
+    padding: 5px 5px 5px 5px;
+}
+
+.img-menu > div > p {
+    color:#7dbc91;
+    margin: 5px 0 0 5px;
+}
+
+.img-menu > div > h4 {
+    margin: 5px 0 0 5px;
+}
+
+.img-lateral{
+    width: 25%;
+}
+
+.img-lateral > img{
+    width: 90%;
+    height: 90%;
+    padding-left: 25px;
+    
+}
+
+
+/* Separador de imagenes*/
+.middle{
+    display: flex;
+}
+.middle >img{
+    width: 49%;    
+}
+.image-right{
+    margin-left: 2%;
+}
+
+.tools >li{
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+
+/* siguiente div con fotos y imagen lateral*/
+
+
+.aMenu-row{
+    width: 25%;
+}
+
+.aMenu-row > div {
+    width: 100%;
+    height: 30%;
+}
+
+.bMenu-row{
+    width: 25%;
+}
+
+.bMenu-row > div {
+    width: 100%;
+    height: 30%;
+}
+
+.blog{
+    text-align: center;
+    
+}
+
+.blog > h5{
+    color: grey;
+}
+
+.cestos{
+    width: 100%;
+}
+.row-items-container{
+    display: flex;
+    justify-content: space-between;
+}
+/* el cuadro grande en el media query lo pongo en flex grab: grab  y a cada una darle un width de 100 %*/
+
+.frutas{
+    width: 32%;
+}
+
+
+.footer-images{
+    display: flex;
+}
+
+.footer1{
+    display: flex
+}
+
+
+.pre-footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px 10px 30px;
+    align-items: baseline; 
+    font-size: 12px;  
+}
+.call-big > h2 {
+    color: orangered;
+
+}
+.call-big{
+    width: 50%;
+}
+.call-big>p >span{
+    font-weight: bold;
+
+}
+.call{
+    
+    display:flex;
+    width: 20%;
+    flex-direction: column;
+    padding-left: 2%;
+    
+}
+
+.call > a{
+    margin: 0 0 20px 0;
+}
+
+.footer{
+    background-color: #015e41;
+    color: white;
+}
+.footer-top{
+    display: flex;
+    padding: 3px 20px 3px 50px;
+}
+.footer-top >div{
+    padding-left: 25px;
+}
+.copyright{
+    background-color: #015138;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding:2%;
+}
+
+.copyright > p > span{
+    font-weight: bold;
+}
+
+.social-media{
+    width: 20px;
+}
+
+.flecha{
+    width:20px;
+    height: 40px;
+    padding: 10px 20px 10px 0px;
+
+}
+
+.footer-top-izq{
+    width: 20%;
+    display: flex;
+}
+
+.pre-search2{
+    border:2px solid white;
+    width: 35%; 
+    height: 30px;
+    padding: 5px 20px 10px 5px;
+    
+ }
+
+ .search2{
+    width: 100%;
+    
+ }    
+
+
+.search2 > input{   
+    padding-top: 3%;
+    border-style: hidden;
+    outline: none; 
+    background:none;      
+     
+}
+::placeholder{
+    color: #dbdbdb;
+}
+ .searchButton2{
+    
+        border-style: hidden;
+        border-radius: 10%;
+        width: 30%;
+        height: 35px;
+        background-color:#7dbc91;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        float: right;
+        
+ }
+
+ .div-social > span{
+     padding-right: 5px;
+ }
+
+ .social-media{
+     border-radius:20px;
+     border:1px solid white;
+     padding: 1px 1px 1px 1px;
+ }
+
+
+.practica2 {
+    width: 10%;
+    height: 30px;
+    
+}
+
+svg {
+	width: 100%;
+	height: 100%;
+	max-width: 150px;
+	max-height: 150px;
+}
+    rect {
+		width: 100px;
+		height: 100px;
+		fill: black;
+		
+	}
+.iniciales{
+    display:flex;
+}
+
+ /* MOVIL*/
+ @media only screen 
+ and (min-device-width: 320px) 
+ and (max-device-width: 480px)
+ and (-webkit-min-device-pixel-ratio: 2) {
+
+    .header-mid{
+        display: none;
+    }
+
+    .deals{
+        flex-direction: column;
+        margin-left: 150px;
+    }
+
+    .items-container{
+        flex-direction: column;
+       
+    }
+
+    .items-container> div{
+        width: 50%;
+        margin-left: auto;
+       margin-right: auto;
+    }
+
+    .footer-top{
+        display: none;
+    }
+
+    .img-lateral{
+        display: none;
+    }
+    .sub-item{
+        display: none;
+    }
+
+    .img-menu > img{
+        width: 50%;
+    }
+
+    .img-menu > div{
+        width: 100%;
+    }
+    .img-menu > div >h4{
+        font-size: 15px;
+        height: 10px;
+    }
+    .img-menu > div >p{
+        padding-left: 150px;
+    }
+
+    .middle{
+        display:block
+    }
+    .middle > img{
+        width: 100%;
+        align-content: center;
+        padding-top: 10px;
+        margin: auto;
+    }
+
+    #segundo > .left-fertilizers{
+        
+        width: auto;
+        border: 0;
+        
+        
+    }
+    #segundo{
+        flex-direction: column;
+        height: auto;
+    }
+   
+    #segundo > div {
+        font-size: 12px;
+        margin-top: 5px;
+        align-items: center;
+        align-content: space-between;
+        flex-direction: column;
+        
+    }
+
+    .bMenu-row{
+        margin: auto;
+        width: 80%;
+    }
+
+    .aMenu-row{
+        margin: auto;
+        width: 80%;
+    }
+
+    
+    .img-menu > div > p {
+        font-size: 20px;
+        padding-top:15px;
+        
+    }
+    .row-items-container{
+        flex-direction: column;
+        
+    }
+
+    .row-items-container > div {
+        margin:auto;
+    }
+    .row-items-container > * {
+        margin:auto;
+        width: 50%;
+        text-align:center;
+    }
+
+    .footer-images{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 150px 150px;
+        grid-row: auto auto;
+        grid-column-gap: 40px;
+        grid-row-gap: 20px;
+        
+    }
+    .footer-images > div {
+        width: 20%;
+        margin:auto;
+    }
+  }
+
+
+  /*IPAD*/
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .footer-top{
+        display: none;
+    }
+
+    .call-big{
+        display:none;
+    }
+}

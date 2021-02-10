@@ -1,0 +1,58 @@
+/* ------------------------------------------------- */
+/* Main styles                                       */
+/* ------------------------------------------------- */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;   
+    color: #bcbbbb;
+ }
+ 
+ body {
+    margin: 0.5rem;
+    padding: 0.5rem;
+ }
+ 
+ h1{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #bcbbbb;
+    padding-top: 1.5rem;
+    padding-top: 0.5rem;
+}
+h3{
+    text-transform:uppercase;
+    color:grey;
+}
+
+hr{
+    border: thin solid #bcbbbb;
+    margin-bottom: 1.5rem;
+}
+
+.col-10.title {    
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.main-container {
+    width: 800px;
+    margin: auto;
+    max-width: 800px;
+}
+
+.col-4.item{
+    text-align: center;
+    
+}
+.col-4.item > h3{
+    font-size: 1.6rem;
+}
+.col-4.item > a{    
+    text-decoration: none;
+    font-weight: bold;
+    font-size: smaller; 
+
+
+}

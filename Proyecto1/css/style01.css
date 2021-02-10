@@ -1,0 +1,51 @@
+* {
+   /*outline: 1px solid red !important;*/
+   font-family: sans-serif;
+   
+}
+/* Lo dejo comentado para poder ver las boxes antes del resultado final
+.container{
+   border-style: solid;
+   border-color: brown;
+}
+*/
+.title{
+   /*border-style: solid;
+   border-color:palevioletred;*/   
+   background-color: blue;
+   color:white;
+   margin-top: 5%;
+   margin-left: 25%;
+   margin-right: 25%;
+   margin-bottom: 1%;
+}
+.content {
+   /*border-style:solid;
+   border-color:palevioletred;
+   border-width: 5px;*/   
+   display: flex;   
+   margin-left: 25%;
+   margin-right: 25%;
+   font-size: 20px;
+}
+
+.image {
+   /*border-style:solid;
+   border-color: green;
+   border-width: 5px;  */ 
+   flex: 1;
+   margin-right: 2%;
+}
+
+.description {
+   /*border-style:solid;
+   border-color: green;
+   border-width: 5px; */  
+   flex: 2;
+   text-align: left;
+   color: blue;
+}
+
+
+
+
