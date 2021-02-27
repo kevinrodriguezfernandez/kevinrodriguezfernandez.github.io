@@ -9,7 +9,14 @@
     
     margin: auto;
 }
-
+.videos{
+    width: 100%;
+    
+}
+.videos > * {
+    width: 49%;
+    height:250px;
+}
 a {
     text-decoration:none;
     color: grey;
